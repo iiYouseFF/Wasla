@@ -1,0 +1,21 @@
+{
+  "name": "wasla",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Wasla — B2B FMCG Marketplace (monorepo)",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "latest",
+    "typescript": "^5.5.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.3.0"
+  },
+  "engines": { "node": ">=20" }
+}

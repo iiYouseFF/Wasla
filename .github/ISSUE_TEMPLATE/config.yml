@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Wasla HQ (Notion)
+    url: https://www.notion.so
+    about: Source-of-truth dashboard, docs library, decisions & risks
+  - name: Backend Repo
+    url: https://github.com/iiYouseFF/Wasla-backend
+    about: API — NestJS modular monolith
